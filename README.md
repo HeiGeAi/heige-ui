@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-1.1.0-ff4d12.svg)
+![Version](https://img.shields.io/badge/version-1.2.0-ff4d12.svg)
 ![Claude](https://img.shields.io/badge/Claude-Skill-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -34,7 +34,7 @@ HeiGe-UI 不这么干。它把一个界面当成一段**有节奏的叙事**来�
 - ✅ **八种极端气质**，每种都给到能直接上手的打法
 - ✅ **反 AI 体检清单**，把那股 AI 味摁死在交付前
 - ✅ 动手前先定调，出货前过体检
-- ✅ **十一个跨气质样例**，同一套方法论，做出完全不同的东西
+- ✅ **十二个跨气质样例**，同一套方法论，做出完全不同的东西
 - ✅ 零依赖单文件，到处都能用
 
 **适用场景**：产品官网、落地页、Dashboard、组件库、营销页、App 界面、Web 应用、作品集、活动页。
@@ -92,7 +92,7 @@ HeiGe-UI 不这么干。它把一个界面当成一段**有节奏的叙事**来�
 
 ## 样例画廊 Gallery
 
-同一套方法论，十一种气质，做出十一个完全不同的东西。每个都是现场锻造的零依赖单文件。**点开任意预览图即可看在线 Demo。**
+同一套方法论，十二种气质，做出十二个完全不同的东西。每个都是现场锻造的零依赖单文件。**点开任意预览图即可看在线 Demo。**
 
 ### 基础气质
 
@@ -100,6 +100,7 @@ HeiGe-UI 不这么干。它把一个界面当成一段**有节奏的叙事**来�
 |:--:|:--|:--|
 | <a href="https://heigeai.github.io/HeiGe-UI/examples/forge-landing.html"><img src="assets/previews/forge-landing.webp" width="400" alt="forge-landing" /></a> | **凶悍 / 工业** | HeiGe-UI 自己的落地页 |
 | <a href="https://heigeai.github.io/HeiGe-UI/examples/editorial-journal.html"><img src="assets/previews/editorial-journal.webp" width="400" alt="editorial-journal" /></a> | **高定 / 杂志** | 独立文化季刊《潮间带》 |
+| <a href="https://heigeai.github.io/HeiGe-UI/examples/editorial-noir.html"><img src="assets/previews/editorial-noir.webp" width="400" alt="editorial-noir" /></a> | **高定 / 杂志（暗色）** | 黑哥AI 内容品牌落地页 |
 | <a href="https://heigeai.github.io/HeiGe-UI/examples/neon-nightshift.html"><img src="assets/previews/neon-nightshift.webp" width="400" alt="neon-nightshift" /></a> | **赛博霓虹** | AI 编程夜班工具 |
 | <a href="https://heigeai.github.io/HeiGe-UI/examples/playful-boing.html"><img src="assets/previews/playful-boing.webp" width="400" alt="playful-boing" /></a> | **玩具** | 习惯养成 App |
 | <a href="https://heigeai.github.io/HeiGe-UI/examples/swiss-ledger.html"><img src="assets/previews/swiss-ledger.webp" width="400" alt="swiss-ledger" /></a> | **瑞士极简** | 现金流分析产品 |
@@ -208,9 +209,10 @@ HeiGe-UI/
 │   ├── anti-slop-checklist.md    # 反 AI 体检清单（交付门槛）
 │   ├── production-checklist.md   # 生产铁律（字体兜底 / 零孤字 / 性能）
 │   └── pacing-templates.md       # 节奏曲线模板（各类页面的张弛排布）
-├── examples/                     # 同一套方法论 × 十一种气质的样例画廊
+├── examples/                     # 同一套方法论 × 十二种气质的样例画廊
 │   ├── forge-landing.html
 │   ├── editorial-journal.html
+│   ├── editorial-noir.html
 │   ├── neon-nightshift.html
 │   ├── darktech-console.html
 │   ├── playful-boing.html
@@ -232,6 +234,12 @@ HeiGe-UI/
 ## 版本历史 Version History
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+### v1.2.0 (2026-07-04)
+- 🖤 高定/杂志方向补一套**暗色配方（玄墨 × 绛红衬线）**写进 `references/aesthetic-directions.md`：玄黑底 #141210 + 奶白字 #EDEAE3 + 绛红 #CE1432，衬线大标题 + 斜纹底纹 + 绛红大序号；讲清和亮色纸墨版、和方向 8 暗色科技（无衬线冷工程感）的分野
+- 🖼️ 新增样例 `editorial-noir`（黑哥AI 内容品牌落地页），签名时刻是占屏巨号衬线宣言「能跑了是起点，交得出去才是本事」，源自黑哥课程分享 deck 的视觉体系
+- 📐 守生产铁律：中文衬线系统兜底（Google Fonts 挂了退思源宋体/宋体不崩）、大标题零孤字、斜纹装饰纯 CSS 不碰 backdrop-filter、动画只动 transform/opacity 且尊重 reduced-motion
+- 📖 README / SKILL 同步：样例画廊 11 → 12
 
 ### v1.1.0 (2026-06-24)
 - ✨ 新增第 8 种气质方向「AI 原生 / 暗色科技（Dark Tech）」：深色基底 + 克制单色辉光 + 网格光晕，对标 Linear / Vercel / Runway 那一挂当代 AI 产品质感，含深空电青 / Aurora 极光 / 碳黑电绿 / 午夜蓝四套配方，并讲清和复古赛博（方向 5）的区别

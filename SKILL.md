@@ -10,7 +10,7 @@ description: >
   在动手前会先定调（确定气质方向），出货前会过一遍反 AI 体检。
   注意：本 skill 负责"从零设计有气场的界面"；如果是把现成内容（报告/文档/数据）转成静态展示页，那是 html-beautifier 的活。
 author: Blake 黑哥
-version: 1.1.0
+version: 1.2.0
 license: MIT
 compatible_platforms: ["Claude Code", "Cursor", "Windsurf", "Cline", "Aider", "OpenClaw", "Hermes", "ChatGPT", "Claude.ai", "通用 AI 助手"]
 ---
@@ -155,11 +155,12 @@ HeiGe-UI 换一种做法：把一个界面当成一段**有节奏的叙事**来�
 
 ## 成品参考（examples/）
 
-同一套方法论，跨气质能产出完全不同的作品。以下 11 个样例均用本方法论现场锻造，可直接打开看效果。
+同一套方法论，跨气质能产出完全不同的作品。以下 12 个样例均用本方法论现场锻造，可直接打开看效果。
 
 基础气质：
 - `forge-landing.html`：HeiGe-UI 自己的落地页。凶悍/工业（熔铁橙×钢黑）。
 - `editorial-journal.html`：独立文化季刊《潮间带》。高定/杂志（纸墨×牛血红、衬线大字）。
+- `editorial-noir.html`：黑哥AI 内容品牌落地页。高定/杂志的暗色反相（玄墨×绛红衬线、斜纹底纹、绛红大序号），黑哥课程 deck 同款调性。
 - `neon-nightshift.html`：AI 编程夜班工具。赛博霓虹（霓虹品红/青、网格地平线）。
 - `darktech-console.html`：Agent 编排控制台 HELM。AI 原生/暗色科技（碳黑×电绿、终端控制台做签名时刻、克制辉光不碰毛玻璃）。
 - `playful-boing.html`：习惯养成 App。玩具（糖果撞色、弹跳吉祥物）。
