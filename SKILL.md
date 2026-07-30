@@ -10,7 +10,7 @@ description: >
   在动手前会先定调（确定气质方向），出货前会过一遍反 AI 体检。
   注意：本 skill 负责"从零设计有气场的界面"；如果是把现成内容（报告/文档/数据）转成静态展示页，那是 html-beautifier 的活。
 author: Blake 黑哥
-version: 1.2.0
+version: 1.2.1
 license: MIT
 compatible_platforms: ["Claude Code", "Cursor", "Windsurf", "Cline", "Aider", "OpenClaw", "Hermes", "ChatGPT", "Claude.ai", "通用 AI 助手"]
 ---
