@@ -2,7 +2,7 @@
 
 <div align="center">
 
-![Version](https://img.shields.io/badge/version-1.2.0-ff4d12.svg)
+![Version](https://img.shields.io/badge/version-1.2.1-ff4d12.svg)
 ![Claude](https://img.shields.io/badge/Claude-Skill-orange.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
 
@@ -158,7 +158,7 @@ cp -r HeiGe-UI ~/.claude/skills/
 
 HeiGe-UI 会带你走完整个锻造流程：
 
-1. **定调**：先和你确认这个界面给谁、解决什么问题、什么气质方向（七种里挑一个极端的）。
+1. **定调**：先和你确认这个界面给谁、解决什么问题、什么气质方向（八种里挑一个极端的）。
 2. **编排节奏**：排一遍页面的节奏曲线，首屏怎么开场、高潮放哪、怎么收束。
 3. **锁定主角与签名时刻**：逐屏确认视觉主角，全局确认这一页的记忆点是什么。
 4. **写生产级代码**：真实可运行的代码，字体做性格，间距对比有大胆决策。
@@ -234,6 +234,11 @@ HeiGe-UI/
 ## 版本历史 Version History
 
 完整记录见 [CHANGELOG.md](CHANGELOG.md)。
+
+### v1.2.1 (2026-07-31)
+- 📝 使用指南与当前八种气质方向保持一致
+- ✅ 新增十二个样例与预览、动效降级和脚本语法回归测试
+- 🔒 新增 GitHub Actions CI 与私密安全报告入口
 
 ### v1.2.0 (2026-07-04)
 - 🖤 高定/杂志方向补一套**暗色配方（玄墨 × 绛红衬线）**写进 `references/aesthetic-directions.md`：玄黑底 #141210 + 奶白字 #EDEAE3 + 绛红 #CE1432，衬线大标题 + 斜纹底纹 + 绛红大序号；讲清和亮色纸墨版、和方向 8 暗色科技（无衬线冷工程感）的分野

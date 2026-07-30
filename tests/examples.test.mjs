@@ -30,3 +30,8 @@ test('all examples preserve the production motion and performance contract', () 
     }
   }
 });
+
+test('the current usage guide matches the eight documented directions', () => {
+  const readme = fs.readFileSync(path.join(ROOT, 'README.md'), 'utf8');
+  assert.match(readme, /气质方向（八种里挑一个极端的）/);
+});
